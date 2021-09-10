@@ -1,0 +1,197 @@
+{
+    "banner": {
+        "builder": true,
+        "no_selection":true,
+        "name": "Banner Section",
+        "content": {
+            "images":{
+                "background_image":{
+                    "size":"1920x1280"
+                }
+            },
+            "heading": "text",
+            "sub_heading": "text",
+            "button_1_text":"text",
+            "button_1_link":"text",
+            "button_2_text":"text",
+            "button_2_link":"text"
+        }
+    },
+    "feature": {
+        "builder": true,
+        "name": "Feature Section",
+        "element": {
+            "heading": "text",
+            "sub_heading": "text",
+            "short_details":"textarea",
+            "modal":true
+        }
+    },
+    "popular": {
+        "builder": true,
+        "name": "Popular Subject",
+        "content": {
+            "heading": "text"
+        }
+    },
+    "statistic":{
+        "builder":true,
+        "name":"Statistics Section",
+        "content":{
+            "images":{
+                "background_image":{
+                    "size":"1920x450"
+                }
+            },
+            "heading":"text"
+        },
+        "element":{
+            "icon":"icon",
+            "count":"text",
+            "title":"text",
+            "modal":true
+        }
+    },
+    "upcomming": {
+        "builder": true,
+        "name": "Upcoming Section",
+        "content": {
+            "heading": "text"
+        }
+    },
+    "career": {
+        "builder": true,
+        "name": "Career Section",
+        "content": {
+            "heading": "text"
+        },
+        "element": {
+            "title":"text",
+            "short_details":"textarea",
+            "modal":true
+        }
+    },
+    "testimonial": {
+        "builder": true,
+        "name": "Testimonial Section",
+        "content": {
+            "heading": "text",
+            "images":{
+                "background_image":{
+                    "size":"1920x1280"
+                }
+            }
+        },
+        "element": {
+            "images":{
+                "author_image":{
+                    "size":"70x70"
+                }
+            },
+            "author_name":"text",
+            "author_designation":"text",
+            "quote":"textarea",
+            "modal":true
+        }
+    },
+    "faq": {
+        "builder": true,
+        "name": "FAQ Section",
+        "content": {
+            "images":{
+                "background_image":{
+                    "size":"555x324"
+                }
+            },
+            "heading": "text",
+            "video_link": "text"
+        },
+        "element": {
+            "question":"text",
+            "answer":"textarea-nic",
+            "modal":false
+        }
+    },
+    "subscribe": {
+        "builder": true,
+        "name": "Subscribe Section",
+        "content": {
+            "images":{
+                "background_image":{
+                    "size":"1920x1280"
+                }
+            },
+            "heading": "text",
+            "button_text":"text",
+            "placeholder":"text"
+        }
+    },
+    "blog": {
+        "builder": true,
+        "name": "Blog Section",
+        "content": {
+            "heading": "text"
+        },
+        "element": {
+            "images":{
+                "cover_image":{
+                    "size":"1200x850",
+                    "thumb":"300x211"
+                }
+            },
+            "title":"text",
+            "body":"textarea-nic",
+            "modal":false
+        }
+    },
+    "footer":{
+        "builder": true,
+        "no_selection":true,
+        "name": "Footer Section",
+        "content": {
+            "short_details": "textarea"
+        },
+        "element":{
+            "icon":"icon",
+            "link":"text",
+            "modal":true
+        }
+    },
+    "policy":{
+        "builder": true,
+        "no_selection":true,
+        "name": "Policy Section",
+        "element":{
+            "title":"text",
+            "description":"textarea-nic",
+            "modal":false
+        }
+    },
+    "login":{
+        "builder": true,
+        "no_selection":true,
+        "name": "Login and Reg. Page",
+        "content":{
+            "images":{
+                "background_image":{
+                    "size":"1920x1280"
+                }
+            }
+        }
+    },
+    "contact":{
+        "builder": true,
+        "no_selection":true,
+        "name": "Contact Us",
+        "content":{
+            "heading":"text",
+            "short_details":"textarea",
+            "address":"text",
+            "email":"text",
+            "phone":"text",
+            "latitude":"text",
+            "longitude":"text",
+            "map_api":"text"
+        }
+    }
+}
